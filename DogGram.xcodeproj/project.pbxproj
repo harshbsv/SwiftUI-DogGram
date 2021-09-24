@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14535DF726FC69FF0068021F /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14535DF626FC69FF0068021F /* PostModel.swift */; };
+		14535DF926FC6D220068021F /* PostArrayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14535DF826FC6D220068021F /* PostArrayObject.swift */; };
+		14535DFB26FC8F140068021F /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14535DFA26FC8F140068021F /* CommentsView.swift */; };
 		147443A726FC33180099D015 /* DogGramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147443A626FC33180099D015 /* DogGramApp.swift */; };
 		147443A926FC33180099D015 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147443A826FC33180099D015 /* ContentView.swift */; };
 		147443AB26FC33180099D015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147443AA26FC33180099D015 /* Assets.xcassets */; };
@@ -15,9 +18,16 @@
 		147443BB26FC45BD0099D015 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147443BA26FC45BD0099D015 /* Extensions.swift */; };
 		147443BE26FC47020099D015 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147443BD26FC47020099D015 /* FeedView.swift */; };
 		147443C026FC47D40099D015 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147443BF26FC47D40099D015 /* PostView.swift */; };
+		14DE6A5526FD9A9B0087C7D9 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DE6A5426FD9A9B0087C7D9 /* MessageView.swift */; };
+		14DE6A5726FD9F8D0087C7D9 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DE6A5626FD9F8D0087C7D9 /* CommentModel.swift */; };
+		14DE6A5926FDB9CC0087C7D9 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DE6A5826FDB9CC0087C7D9 /* BrowseView.swift */; };
+		14DE6A5B26FDBA4D0087C7D9 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DE6A5A26FDBA4D0087C7D9 /* CarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14535DF626FC69FF0068021F /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		14535DF826FC6D220068021F /* PostArrayObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostArrayObject.swift; sourceTree = "<group>"; };
+		14535DFA26FC8F140068021F /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
 		147443A326FC33180099D015 /* DogGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		147443A626FC33180099D015 /* DogGramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogGramApp.swift; sourceTree = "<group>"; };
 		147443A826FC33180099D015 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,6 +37,10 @@
 		147443BA26FC45BD0099D015 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		147443BD26FC47020099D015 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		147443BF26FC47D40099D015 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		14DE6A5426FD9A9B0087C7D9 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		14DE6A5626FD9F8D0087C7D9 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		14DE6A5826FDB9CC0087C7D9 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		14DE6A5A26FDBA4D0087C7D9 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14535DF526FC69EB0068021F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				14535DF626FC69FF0068021F /* PostModel.swift */,
+				14535DF826FC6D220068021F /* PostArrayObject.swift */,
+				14DE6A5626FD9F8D0087C7D9 /* CommentModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		1474439A26FC33180099D015 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +83,7 @@
 		147443A526FC33180099D015 /* DogGram */ = {
 			isa = PBXGroup;
 			children = (
+				14535DF526FC69EB0068021F /* Models */,
 				147443B926FC45B20099D015 /* Helpers */,
 				147443B626FC41C50099D015 /* Views */,
 				147443AA26FC33180099D015 /* Assets.xcassets */,
@@ -91,6 +116,8 @@
 				147443A626FC33180099D015 /* DogGramApp.swift */,
 				147443A826FC33180099D015 /* ContentView.swift */,
 				147443BD26FC47020099D015 /* FeedView.swift */,
+				14535DFA26FC8F140068021F /* CommentsView.swift */,
+				14DE6A5826FDB9CC0087C7D9 /* BrowseView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -99,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				147443BF26FC47D40099D015 /* PostView.swift */,
+				14DE6A5426FD9A9B0087C7D9 /* MessageView.swift */,
+				14DE6A5A26FDBA4D0087C7D9 /* CarouselView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -183,9 +212,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				147443BE26FC47020099D015 /* FeedView.swift in Sources */,
+				14535DF726FC69FF0068021F /* PostModel.swift in Sources */,
 				147443A926FC33180099D015 /* ContentView.swift in Sources */,
+				14DE6A5526FD9A9B0087C7D9 /* MessageView.swift in Sources */,
 				147443BB26FC45BD0099D015 /* Extensions.swift in Sources */,
+				14535DF926FC6D220068021F /* PostArrayObject.swift in Sources */,
 				147443C026FC47D40099D015 /* PostView.swift in Sources */,
+				14DE6A5926FDB9CC0087C7D9 /* BrowseView.swift in Sources */,
+				14DE6A5726FD9F8D0087C7D9 /* CommentModel.swift in Sources */,
+				14535DFB26FC8F140068021F /* CommentsView.swift in Sources */,
+				14DE6A5B26FDBA4D0087C7D9 /* CarouselView.swift in Sources */,
 				147443A726FC33180099D015 /* DogGramApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
