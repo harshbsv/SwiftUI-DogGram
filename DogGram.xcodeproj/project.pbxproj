@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		142BF3AF26FE3AC900864FC4 /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142BF3AE26FE3AC900864FC4 /* ImageGridView.swift */; };
 		14535DF726FC69FF0068021F /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14535DF626FC69FF0068021F /* PostModel.swift */; };
 		14535DF926FC6D220068021F /* PostArrayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14535DF826FC6D220068021F /* PostArrayObject.swift */; };
 		14535DFB26FC8F140068021F /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14535DFA26FC8F140068021F /* CommentsView.swift */; };
+		145429BF27004469005CD1B3 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145429BE27004469005CD1B3 /* UploadView.swift */; };
 		147443A726FC33180099D015 /* DogGramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147443A626FC33180099D015 /* DogGramApp.swift */; };
 		147443A926FC33180099D015 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147443A826FC33180099D015 /* ContentView.swift */; };
 		147443AB26FC33180099D015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147443AA26FC33180099D015 /* Assets.xcassets */; };
@@ -25,9 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		142BF3AE26FE3AC900864FC4 /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
 		14535DF626FC69FF0068021F /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		14535DF826FC6D220068021F /* PostArrayObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostArrayObject.swift; sourceTree = "<group>"; };
 		14535DFA26FC8F140068021F /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
+		145429BE27004469005CD1B3 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
 		147443A326FC33180099D015 /* DogGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		147443A626FC33180099D015 /* DogGramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogGramApp.swift; sourceTree = "<group>"; };
 		147443A826FC33180099D015 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,6 +122,7 @@
 				147443BD26FC47020099D015 /* FeedView.swift */,
 				14535DFA26FC8F140068021F /* CommentsView.swift */,
 				14DE6A5826FDB9CC0087C7D9 /* BrowseView.swift */,
+				145429BE27004469005CD1B3 /* UploadView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 				147443BF26FC47D40099D015 /* PostView.swift */,
 				14DE6A5426FD9A9B0087C7D9 /* MessageView.swift */,
 				14DE6A5A26FDBA4D0087C7D9 /* CarouselView.swift */,
+				142BF3AE26FE3AC900864FC4 /* ImageGridView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -217,10 +223,12 @@
 				14DE6A5526FD9A9B0087C7D9 /* MessageView.swift in Sources */,
 				147443BB26FC45BD0099D015 /* Extensions.swift in Sources */,
 				14535DF926FC6D220068021F /* PostArrayObject.swift in Sources */,
+				142BF3AF26FE3AC900864FC4 /* ImageGridView.swift in Sources */,
 				147443C026FC47D40099D015 /* PostView.swift in Sources */,
 				14DE6A5926FDB9CC0087C7D9 /* BrowseView.swift in Sources */,
 				14DE6A5726FD9F8D0087C7D9 /* CommentModel.swift in Sources */,
 				14535DFB26FC8F140068021F /* CommentsView.swift in Sources */,
+				145429BF27004469005CD1B3 /* UploadView.swift in Sources */,
 				14DE6A5B26FDBA4D0087C7D9 /* CarouselView.swift in Sources */,
 				147443A726FC33180099D015 /* DogGramApp.swift in Sources */,
 			);
